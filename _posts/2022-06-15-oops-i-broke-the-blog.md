@@ -19,14 +19,15 @@ want to call it `post.sh`. So it was just `post`.
 But any file in the source directory is copied over
 statically by Jekyll to the final build. So downloading my
 script would be as easy as going to
-<https://kevinnlsamuel.com/bitesyzedtechdiary/post>.
+~~<https://kevinnlsamuel.com/bitesyzedtechdiary/post>.~~
+<https://blog.kevinnlsamuel.com/techdiary/post>.
 
 Now this is not a problem. My source code is public anyway.
 But it is unneccesary and does not need to be on my website.
 Likewise for `docker-compose.yml`.
 
 Sooo, I
-[excluded them in `_config.yml`](https://github.com/kevinnls/bitesyzedtechdiary/commit/cbeed25dce473f2e98dd6006e6e22510cd7cd781)
+[excluded them in `_config.yml`](https://github.com/kevinnlsamuel/techdiary/commit/cbeed25dce473f2e98dd6006e6e22510cd7cd781)
 
 And it made sense because I was not using any glob characters
 but nope, the `post` layout in my theme ended up being excluded
@@ -53,7 +54,7 @@ matching. And any file with the name `post` got excluded.
 So that would be a theme file without an extension.
 
 And what if
-[instead I used `/post`](https://github.com/kevinnls/bitesyzedtechdiary/commit/11071a6432c892fc881b17179da540a018b83fde)
+[instead I used `/post`](https://github.com/kevinnlsamuel/techdiary/commit/11071a6432c892fc881b17179da540a018b83fde)
 to indicate that only the file named post at the root
 should be excluded?
 

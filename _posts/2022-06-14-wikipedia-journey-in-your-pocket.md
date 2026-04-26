@@ -118,12 +118,12 @@ realise I missed the `.md`
 Now I can just run `./post` and if there is a file with today's date, it
 is opened using `${EDITOR:-vi}`. Else a prompt asks for a slug and creates
 and opens the file. It's a
-[surprisingly uncomplicated script](https://github.com/kevinnls/bitesyzedtechdiary/blob/main/post)
+[surprisingly uncomplicated script](https://github.com/kevinnlsamuel/techdiary/blob/main/post)
 for something that _**I**_ wrote.
 
 Even in creating the helper, I had a lot of _hurdles_.
 If you would like, see the
-[commit history](https://github.com/kevinnls/bitesyzedtechdiary/commits/main/post)
+[commit history](https://github.com/kevinnlsamuel/techdiary/commits/main/post)
 
 I had too many cycles of "yay it works" moments followd by "oh this does not work"
 realisations after pushing.

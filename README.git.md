@@ -2,7 +2,7 @@
 published: false
 ---
 
-# bite-syzed tech diary
+# tech diary
 
 (hopefully) daily journal of tech discoveries, training and the sort
 

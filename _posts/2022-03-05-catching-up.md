@@ -32,7 +32,7 @@ I was about to follow the tutorial _exactly_. I think I actually tried,
 but it didn't work. Then I remembered! I'm using Minima's master branch.
 
 Anyway, some day in between I followed the instructions for Minima and
-[did some custom styling](https://github.com/kevinnls/bitesyzedtechdiary/commit/e2ffb21e8478acef0f51b295f631c4d8030c03fb).
+[did some custom styling](https://github.com/kevinnlsamuel/techdiary/commit/e2ffb21e8478acef0f51b295f631c4d8030c03fb).
 
 > Wow, I am very bad at CSS.
 
@@ -147,7 +147,7 @@ myself. Heh. A loss for Windows. Probably not, but let's say it was.
 
 Apart from the lack of CMS.
 Not all emoji haven't been working even after I
-[enabled](https://github.com/kevinnls/bitesyzedtechdiary/commit/84b716406c4acdd27ddbf7ed1123f0b7e563b97a)
+[enabled](https://github.com/kevinnlsamuel/techdiary/commit/84b716406c4acdd27ddbf7ed1123f0b7e563b97a)
 [`jemoji`](//rubygems.org/gems/jemoji). And with the current styling
 the links would appear as one even though each word is a different
 hyperlink. There's another complaint right there!

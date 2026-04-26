@@ -1,5 +1,5 @@
 services:
-  bitesyzedtechdiary:
+  techdiary:
     image: ghcr.io/kevinnls/pages-gem:latest-alpine
     environment:
       TZ: "${TZ:-}"

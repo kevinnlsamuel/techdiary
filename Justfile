@@ -1,4 +1,4 @@
-CONTAINER_ARGS :=  '--rm -d --name=bitesyzedtechdiary \
+CONTAINER_ARGS :=  '--rm -d --name=techdiary \
 	--publish 4000:4000 --publish 35942:35942 \
 	--env JEKYLL_LOG_LEVEL=debug \
 	--env TZ=Asia/Kolkata'

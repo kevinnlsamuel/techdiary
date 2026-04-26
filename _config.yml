@@ -11,10 +11,10 @@ author:
   email: developer@kevinnlsamuel.com
   twitter: kevinnlsamuel
 
-title: "bite syzed tech diary"
+title: "tech diary"
 description: >-
   (hopefully) daily journal of tech discoveries, training and the sort
-baseurl: "/bitesyzedtechdiary"
+baseurl: "/techdiary/"
 
 incremental: true
 host: 0.0.0.0
