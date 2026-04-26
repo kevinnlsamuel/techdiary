@@ -14,8 +14,9 @@ author:
 title: "tech diary"
 description: >-
   (hopefully) daily journal of tech discoveries, training and the sort
-baseurl: "/techdiary/"
+baseurl: '/techdiary'
 
+destination: '_site/techdiary'
 incremental: true
 host: 0.0.0.0
 

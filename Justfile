@@ -14,3 +14,7 @@ CONTAINER_CMD := f"{{IMAGE}} {{JEKYLL_CMD}} {{JEKYLL_ARGS}}"
 
 pod:
 	podman run {{CONTAINER_ARGS}} -v ./:/src/site:z {{CONTAINER_CMD}}
+
+build:
+	podman run {{CONTAINER_ARGS}} -v ./:/src/site:z {{IMAGE}} \
+			jekyll build
