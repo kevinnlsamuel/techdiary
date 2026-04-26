@@ -1,0 +1,12 @@
+name: "build and publish jekyll site"
+on:
+  push:
+  workflow_call:
+jobs:
+  buildandpublish:
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          destination: './_site/techdiary'
+      - uses: actions/upload-pages-artifact@v3
