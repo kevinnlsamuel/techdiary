@@ -4,6 +4,7 @@ on:
   workflow_call:
 jobs:
   buildandpublish:
+    runs-on: ubuntu-slim
     steps:
       - uses: actions/checkout@v4
       - uses: actions/jekyll-build-pages@v1
