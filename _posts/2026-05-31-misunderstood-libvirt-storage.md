@@ -59,7 +59,7 @@ now libvirt should mount the device whenever the pool is called upon
 so now i should be able to just do
 
 ```console
-virt-install --disk wasteland/fedora43 [...]
+$ virt-install --disk wasteland/fedora43 [...]
 ```
 
 testing this out will be for another time
