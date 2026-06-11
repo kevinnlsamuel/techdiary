@@ -13,5 +13,7 @@ jobs:
       - uses: actions/jekyll-build-pages@v1
         with:
           destination: './_site/techdiary'
+        env:
+          TZ: Asia/Kolkata
       - uses: actions/upload-pages-artifact@v3
       - uses: actions/deploy-pages@v5
