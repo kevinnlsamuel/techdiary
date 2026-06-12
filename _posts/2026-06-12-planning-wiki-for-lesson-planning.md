@@ -77,7 +77,7 @@ return {
 	{
 		"vimwiki/vimwiki",
 		init = function()
-			vim.g.vimwiki_syntax = 'media'
+			vim.g.vimwikisyntax = 'media'
 			vim.g.vimwiki_key_mappings = {
 				lists = 0,
 			}
@@ -98,7 +98,7 @@ into a line before the loading of lazy.nvim
 
 ```lua
 --- [ blah blah blah ]
-vim.g.leader = ' '
+vim.g.mapleader = ' '
 --- [ nvim loading ]
 ```
 
