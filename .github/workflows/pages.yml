@@ -15,11 +15,10 @@ jobs:
           destination: './_site/techdiary'
         env:
           TZ: Asia/Kolkata
-      - run: |
-          cat << EOM > /github/workspace/_site/index.html
-          <!doctype html><html><head><meta http-equiv="refresh" content="/techdiary/" /></head></html>
-          EOM
-        name: http refresh
+      - name: setup redirect
+        working-directory: /home/runner/work/techdiary/techdiary
+        run: |
+          cp redirect.html _site/index.html
 
       - uses: actions/upload-pages-artifact@v3
       - uses: actions/deploy-pages@v5
