@@ -16,9 +16,8 @@ jobs:
         env:
           TZ: Asia/Kolkata
       - name: setup redirect
-        working-directory: /home/runner/work/techdiary/techdiary
-        run: |
-          cp redirect.html _site/index.html
+        working-directory: /home/runner/work/techdiary/techdiary/site
+        run: cp ../redirect.html index.html
 
       - uses: actions/upload-pages-artifact@v3
       - uses: actions/deploy-pages@v5
