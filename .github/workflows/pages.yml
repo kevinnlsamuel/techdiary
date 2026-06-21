@@ -19,6 +19,7 @@ jobs:
         cat << EOM > ./_site/index.html
         <!doctype html><html><head><meta http-equiv="refresh" content="/techdiary/" /></head></html>
         EOM
+        name: http refresh
 
       - uses: actions/upload-pages-artifact@v3
       - uses: actions/deploy-pages@v5
