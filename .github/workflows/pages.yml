@@ -5,6 +5,8 @@ on:
 jobs:
   buildandpublish:
     runs-on: ubuntu-latest
+    container:
+      options: '--user=1001'
     permissions:
       pages: write
       id-token: write
@@ -18,8 +20,6 @@ jobs:
       - name: setup redirect
         working-directory: /home/runner/work/techdiary/techdiary/_site
         run: cp ../redirect.html index.html
-        container:
-          options: '--user=1001'
 
       - uses: actions/upload-pages-artifact@v3
       - uses: actions/deploy-pages@v5
