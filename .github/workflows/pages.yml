@@ -15,5 +15,10 @@ jobs:
           destination: './_site/techdiary'
         env:
           TZ: Asia/Kolkata
+      - run: |
+        cat << EOM > ./_site/index.html
+        <!doctype html><html><head><meta http-equiv="refresh" content="/techdiary/" /></head></html>
+        EOM
+
       - uses: actions/upload-pages-artifact@v3
       - uses: actions/deploy-pages@v5
