@@ -16,7 +16,7 @@ jobs:
         env:
           TZ: Asia/Kolkata
       - run: |
-          cat << EOM > /home/runner/work/techdiary/techdiary/_site/index.html
+          cat << EOM > /github/workspace/_site/index.html
           <!doctype html><html><head><meta http-equiv="refresh" content="/techdiary/" /></head></html>
           EOM
         name: http refresh
