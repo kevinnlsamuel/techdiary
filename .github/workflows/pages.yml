@@ -16,9 +16,9 @@ jobs:
         env:
           TZ: Asia/Kolkata
       - run: |
-        cat << EOM > ./_site/index.html
-        <!doctype html><html><head><meta http-equiv="refresh" content="/techdiary/" /></head></html>
-        EOM
+          cat << EOM > ./_site/index.html
+          <!doctype html><html><head><meta http-equiv="refresh" content="/techdiary/" /></head></html>
+          EOM
         name: http refresh
 
       - uses: actions/upload-pages-artifact@v3
