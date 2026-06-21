@@ -6,7 +6,7 @@ jobs:
   buildandpublish:
     runs-on: ubuntu-latest
     container:
-      image: docker.io/library/alpine:3.22
+      image: docker.io/library/ubuntu:questing
       options: '--user=root'
     permissions:
       pages: write
