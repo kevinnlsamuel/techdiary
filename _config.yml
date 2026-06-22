@@ -13,7 +13,7 @@ author:
 
 title: "tech diary"
 description: >-
-  (hopefully) daily journal of tech discoveries, training and the sort
+  something like a blog
 baseurl: '/techdiary'
 
 destination: '_site/techdiary'
